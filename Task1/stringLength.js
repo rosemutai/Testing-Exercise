@@ -7,6 +7,6 @@ const stringLength = (string) => {
   
 };
 
-stringLength('Hey');
+stringLength('HelloHello');
 
 module.exports = stringLength;
