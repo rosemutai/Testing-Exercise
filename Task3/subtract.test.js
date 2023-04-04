@@ -1,9 +1,14 @@
 const Calculator = require('./Calculator');
 
-describe('subtract', () => {
-  test('12 minus 4 is 8', () => {
+describe('subtract ', () => {
+  test('subtract positive numbers', () => {
     const calc = new Calculator(12, 4);
     expect(calc.subtract(12, 4)).toBe(8);
+  })
+
+  test('subtract negative numbers', () => {
+    const calc = new Calculator(-2, -4);
+    expect(calc.subtract(-2, -4)).toBe(2);
   })
 
   test('Values are numbers', () => {
