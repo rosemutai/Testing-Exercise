@@ -1,0 +1,23 @@
+{
+  "name": "testing-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosemutai/Testing-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosemutai/Testing-Exercise/issues"
+  },
+  "homepage": "https://github.com/rosemutai/Testing-Exercise#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
