@@ -18,6 +18,11 @@ describe('divide', () => {
   });
 
   test('second number is not zero', () => {
+    const calc = new Calculator(20, 0);
+    expect(() => calc.divide(5, 0)).toThrow("Cannot divide by zero");
+  });
+
+  test('second number is not zero', () => {
     const calc = new Calculator(20, 4);
     expect(4).not.toBeFalsy();
   });

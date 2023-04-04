@@ -11,7 +11,12 @@ class Calculator {
     return this.num1 - this.num2;
   }
   divide() {
-    return this.num1 / this.num2;
+    if (this.num2 === 0) {
+      throw new Error('Cannot divide by zero');
+    } else {
+      return this.num1 / this.num2;
+    }
+    
   }
   multiply() {
     return this.num1 * this.num2;
